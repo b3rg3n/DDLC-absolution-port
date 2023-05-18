@@ -1,0 +1,40 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+After initialization, but before game start.
+  File "renpy/common/00start.rpy", line 79, in _init_language
+    renpy.change_language(language)
+  File "game/screens.rpy", line 732, in <module>
+    xpos gui.navigation_xpos
+AttributeError: 'StoreModule' object has no attribute 'navigation_xpos'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "C:\renpy-7.0.0-sdk\renpy\bootstrap.py", line 306, in bootstrap
+    renpy.main.main()
+  File "C:\renpy-7.0.0-sdk\renpy\main.py", line 513, in main
+    run(restart)
+  File "C:\renpy-7.0.0-sdk\renpy\main.py", line 71, in run
+    renpy.translation.init_translation()
+  File "C:\renpy-7.0.0-sdk\renpy\translation\__init__.py", line 543, in init_translation
+    renpy.store._init_language()  # @UndefinedVariable
+  File "renpy/common/00start.rpy", line 79, in _init_language
+    renpy.change_language(language)
+  File "C:\renpy-7.0.0-sdk\renpy\translation\__init__.py", line 621, in change_language
+    new_change_language(tl, language)
+  File "C:\renpy-7.0.0-sdk\renpy\translation\__init__.py", line 591, in new_change_language
+    i.apply()
+  File "C:\renpy-7.0.0-sdk\renpy\ast.py", line 2393, in apply
+    value = renpy.python.py_eval(expr)
+  File "C:\renpy-7.0.0-sdk\renpy\python.py", line 1943, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\renpy-7.0.0-sdk\renpy\python.py", line 1936, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/screens.rpy", line 732, in <module>
+    xpos gui.navigation_xpos
+AttributeError: 'StoreModule' object has no attribute 'navigation_xpos'
+
+Windows-8-6.2.9200
+Ren'Py 7.0.0.196
+Doki Doki: Absolution 1.1
+Thu May 18 21:46:43 2023

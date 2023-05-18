@@ -1,0 +1,1 @@
+{"target_version": 14, "orientation": "sensorLandscape", "package": "ru.bergen.absolution", "include_pil": false, "numeric_version": "101", "expansion": false, "name": "Doki Doki: Absolution", "source": false, "icon_name": "Doki Doki: Absolution", "version": "1.1", "layout": null, "permissions": ["VIBRATE", "INTERNET"], "include_sqlite": false, "store": "none"}

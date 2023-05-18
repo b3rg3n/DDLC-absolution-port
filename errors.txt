@@ -1,0 +1,11 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/advanced_scripts/gui.rpy", line 427: unexpected indent
+            gui.textbox_height = 240
+            ^
+    
+
+Ren'Py Version: Ren'Py 7.0.0.196
+Thu May 18 21:34:52 2023
