@@ -1,4 +1,4 @@
-{b}DDLC MOD Absolution: Chapter One Port{/b}
+**DDLC MOD Absolution: Chapter One Port**
 
 
 Перевод и порт сделаны командой <<Team Анахристы>>.
